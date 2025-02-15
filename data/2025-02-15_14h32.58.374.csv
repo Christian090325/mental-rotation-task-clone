@@ -1,0 +1,4 @@
+﻿Intructions_1.started,Intructions_1.stopped,instr_key_1.keys,instr_key_1.rt,instr_key_1.duration,session,participant,date,expName,psychopyVersion,OS,frameRate,Intructions_2.started,Intructions_2.stopped,trial.started,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,trials.order,left_im,right_im,leftori,rightori,corrAns,angle
+0.0002,18.7855,m,18.7678,,001,,2025-02-15_14h32.58.374,MentalRotation,2024.2.4,Win32,58.82352941,,,,,,,,,,,,,,,
+,,,,,001,,2025-02-15_14h32.58.374,MentalRotation,2024.2.4,Win32,58.82352941,18.7875,45.4108,,,,,,,,,,,,,
+,,,,,001,,2025-02-15_14h32.58.374,MentalRotation,2024.2.4,Win32,58.82352941,,,45.4163,0,0,0,26,1,31,FR.png,FR.png,0,225,n,225
