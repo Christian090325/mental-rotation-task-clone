@@ -33,7 +33,7 @@ psychoJS.schedule(psychoJS.gui.DlgFromDict({
 
 const flowScheduler = new Scheduler(psychoJS);
 const dialogCancelScheduler = new Scheduler(psychoJS);
-psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); }, flowScheduler, dialogCancelScheduler);
+psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); },flowScheduler, dialogCancelScheduler);
 
 // flowScheduler gets run if the participants presses OK
 flowScheduler.add(updateInfo); // add timeStamp
@@ -82,7 +82,7 @@ async function updateInfo() {
   currentLoop = psychoJS.experiment;  // right now there are no loops
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2024.1.5';
+  expInfo['psychopyVersion'] = '2024.2.4';
   expInfo['OS'] = window.navigator.platform;
 
 
@@ -126,6 +126,7 @@ var fbtext;
 var the_endClock;
 var end_txt;
 var end_key;
+var text;
 var globalClock;
 var routineTimer;
 async function experimentInit() {
@@ -136,13 +137,15 @@ async function experimentInit() {
   instr_textbox1 = new visual.TextBox({
     win: psychoJS.window,
     name: 'instr_textbox1',
-    text: "Welcome. You will see two letters on the screen that have been rotated. For each pair of letters, indicate if they are mirror images of each other when they two letters are in their normal upright position. (Ignore the rotations.) \n \nPress 'm' if they are mirror images of each other.\nPress 'n' if they are the same (not mirror images).   \n\nPress 'm' to start",
+    text: "Welcome. You will see two 'F' letters on the screen that have been rotated.\n\nYour task is to mentally rotate the 'F' on the right so that it is facing upright.\n\nFor each pair of letters, indicate if they are mirror images of each other when they two letters are in their normal upright position. (You have to mentally rotate them so they are both standing upright).\n \nPress 'm' if they are mirror images of each other.\nPress 'n' if they are facing the same direction (not mirror images).   \n\nPress 'm' to start",
     placeholder: 'Type here...',
     font: 'Arial',
     pos: [0, 0], 
+    draggable: false,
     letterHeight: 0.05,
     lineSpacing: 1.0,
     size: [1, 1],  units: undefined, 
+    ori: 0.0,
     color: 'black', colorSpace: 'rgb',
     fillColor: undefined, borderColor: undefined,
     languageStyle: 'LTR',
@@ -164,7 +167,10 @@ async function experimentInit() {
     name : 'image_L_3', units : undefined, 
     image : 'default.png', mask : undefined,
     anchor : 'center',
-    ori : 1.0, pos : [(- 0.25), 0.2], size : [0.3, 0.3],
+    ori : 1.0, 
+    pos : [(- 0.25), 0.2], 
+    draggable: false,
+    size : [0.3, 0.3],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : 0.0 
@@ -174,7 +180,10 @@ async function experimentInit() {
     name : 'image_R_3', units : undefined, 
     image : 'default.png', mask : undefined,
     anchor : 'center',
-    ori : 1.0, pos : [0.25, 0.2], size : [0.3, 0.3],
+    ori : 1.0, 
+    pos : [0.25, 0.2], 
+    draggable: false,
+    size : [0.3, 0.3],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -1.0 
@@ -184,13 +193,15 @@ async function experimentInit() {
   instrtxt2 = new visual.TextBox({
     win: psychoJS.window,
     name: 'instrtxt2',
-    text: "Here, the letter on the right is a mirror image of the letter on the left. They would still be different after mentally rotating them to line up. So press 'm' (different). If they are the same, you would press 'n'. \n \nTry to respond as accurately as you can. Also try to be fast, but emphasize being accurate. Press 'n' to start.",
+    text: "Here, the letter on the right is a mirror image of the letter on the left.\n\nThey would be mirror images of eachother after mentally rotating them to line up. So press 'm' (different directions/mirror images). \n\nIf they are facing the same direction after mentally rotating them to stand upright, you would press 'n'. \n \nTry to respond as accurately as you can. Also try to be fast, but emphasize being accurate. Press 'n' to start.",
     placeholder: 'Type here...',
     font: 'Arial',
     pos: [0, (- 0.25)], 
+    draggable: false,
     letterHeight: 0.05,
     lineSpacing: 1.0,
     size: [1, 0.5],  units: undefined, 
+    ori: 0.0,
     color: 'black', colorSpace: 'rgb',
     fillColor: undefined, borderColor: undefined,
     languageStyle: 'LTR',
@@ -212,7 +223,10 @@ async function experimentInit() {
     name : 'image_L', units : undefined, 
     image : 'default.png', mask : undefined,
     anchor : 'center',
-    ori : 1.0, pos : [(- 0.25), 0], size : [0.3, 0.3],
+    ori : 1.0, 
+    pos : [(- 0.25), 0], 
+    draggable: false,
+    size : [0.3, 0.3],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : 0.0 
@@ -222,7 +236,10 @@ async function experimentInit() {
     name : 'image_R', units : undefined, 
     image : 'default.png', mask : undefined,
     anchor : 'center',
-    ori : 1.0, pos : [0.25, 0], size : [0.3, 0.3],
+    ori : 1.0, 
+    pos : [0.25, 0], 
+    draggable: false,
+    size : [0.3, 0.3],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -1.0 
@@ -235,7 +252,7 @@ async function experimentInit() {
     text: '\'n\' for "non mirrored"/"same"\n\'m\' for "mirrored"/"different"',
     font: 'Arial',
     units: undefined, 
-    pos: [0, (- 0.3)], height: 0.03,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], draggable: false, height: 0.03,  wrapWidth: undefined, ori: 0,
     languageStyle: 'LTR',
     color: new util.Color('black'),  opacity: 1,
     depth: -3.0 
@@ -247,7 +264,7 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0.4, (- 0.4)], height: 0.03,  wrapWidth: undefined, ori: 0,
+    pos: [0.4, (- 0.4)], draggable: false, height: 0.03,  wrapWidth: undefined, ori: 0,
     languageStyle: 'LTR',
     color: new util.Color('black'),  opacity: 1,
     depth: -4.0 
@@ -264,7 +281,7 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: -1.0 
@@ -278,13 +295,25 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0,
     languageStyle: 'LTR',
     color: new util.Color('black'),  opacity: 1,
     depth: 0.0 
   });
   
   end_key = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  text = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text',
+    text: "Press 'space' to save results",
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, (- 0.2)], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: -2.0 
+  });
   
   // Create some handy timers
   globalClock = new util.Clock();  // to track the time since experiment started
@@ -297,7 +326,9 @@ async function experimentInit() {
 var t;
 var frameN;
 var continueRoutine;
+var Intructions_1MaxDurationReached;
 var _instr_key_1_allKeys;
+var Intructions_1MaxDuration;
 var Intructions_1Components;
 function Intructions_1RoutineBegin(snapshot) {
   return async function () {
@@ -305,14 +336,17 @@ function Intructions_1RoutineBegin(snapshot) {
     
     //--- Prepare to start Routine 'Intructions_1' ---
     t = 0;
-    Intructions_1Clock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    Intructions_1Clock.reset();
+    routineTimer.reset();
+    Intructions_1MaxDurationReached = false;
     // update component parameters for each repeat
-    psychoJS.experiment.addData('Intructions_1.started', globalClock.getTime());
     instr_key_1.keys = undefined;
     instr_key_1.rt = undefined;
     _instr_key_1_allKeys = [];
+    psychoJS.experiment.addData('Intructions_1.started', globalClock.getTime());
+    Intructions_1MaxDuration = null
     // keep track of which components have finished
     Intructions_1Components = [];
     Intructions_1Components.push(instr_key_1);
@@ -429,7 +463,9 @@ function Intructions_1RoutineEnd(snapshot) {
 }
 
 
+var Intructions_2MaxDurationReached;
 var _instr_key_2_allKeys;
+var Intructions_2MaxDuration;
 var Intructions_2Components;
 function Intructions_2RoutineBegin(snapshot) {
   return async function () {
@@ -437,11 +473,12 @@ function Intructions_2RoutineBegin(snapshot) {
     
     //--- Prepare to start Routine 'Intructions_2' ---
     t = 0;
-    Intructions_2Clock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    Intructions_2Clock.reset();
+    routineTimer.reset();
+    Intructions_2MaxDurationReached = false;
     // update component parameters for each repeat
-    psychoJS.experiment.addData('Intructions_2.started', globalClock.getTime());
     image_L_3.setOri(0);
     image_L_3.setImage('FR.png');
     image_R_3.setOri((- 90));
@@ -449,6 +486,8 @@ function Intructions_2RoutineBegin(snapshot) {
     instr_key_2.keys = undefined;
     instr_key_2.rt = undefined;
     _instr_key_2_allKeys = [];
+    psychoJS.experiment.addData('Intructions_2.started', globalClock.getTime());
+    Intructions_2MaxDuration = null
     // keep track of which components have finished
     Intructions_2Components = [];
     Intructions_2Components.push(image_L_3);
@@ -643,7 +682,9 @@ function trialsLoopEndIteration(scheduler, snapshot) {
 }
 
 
+var trialMaxDurationReached;
 var _key_resp_allKeys;
+var trialMaxDuration;
 var trialComponents;
 function trialRoutineBegin(snapshot) {
   return async function () {
@@ -651,11 +692,12 @@ function trialRoutineBegin(snapshot) {
     
     //--- Prepare to start Routine 'trial' ---
     t = 0;
-    trialClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    trialClock.reset();
+    routineTimer.reset();
+    trialMaxDurationReached = false;
     // update component parameters for each repeat
-    psychoJS.experiment.addData('trial.started', globalClock.getTime());
     image_L.setOri(leftori);
     image_L.setImage(left_im);
     image_R.setOri(rightori);
@@ -664,6 +706,8 @@ function trialRoutineBegin(snapshot) {
     key_resp.rt = undefined;
     _key_resp_allKeys = [];
     trial_count.setText(((trials.thisN.toString() + "/") + trials.nTotal.toString()));
+    psychoJS.experiment.addData('trial.started', globalClock.getTime());
+    trialMaxDuration = null
     // keep track of which components have finished
     trialComponents = [];
     trialComponents.push(image_L);
@@ -829,8 +873,10 @@ function trialRoutineEnd(snapshot) {
 }
 
 
+var feedbackMaxDurationReached;
 var fb;
 var fbcol;
+var feedbackMaxDuration;
 var feedbackComponents;
 function feedbackRoutineBegin(snapshot) {
   return async function () {
@@ -838,12 +884,12 @@ function feedbackRoutineBegin(snapshot) {
     
     //--- Prepare to start Routine 'feedback' ---
     t = 0;
-    feedbackClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    feedbackClock.reset(routineTimer.getTime());
     routineTimer.add(0.500000);
+    feedbackMaxDurationReached = false;
     // update component parameters for each repeat
-    psychoJS.experiment.addData('feedback.started', globalClock.getTime());
     // Run 'Begin Routine' code from code
     if (key_resp.corr) {
         fb = "Correct!";
@@ -856,6 +902,8 @@ function feedbackRoutineBegin(snapshot) {
     
     fbtext.setColor(new util.Color(fbcol));
     fbtext.setText(fb);
+    psychoJS.experiment.addData('feedback.started', globalClock.getTime());
+    feedbackMaxDuration = null
     // keep track of which components have finished
     feedbackComponents = [];
     feedbackComponents.push(fbtext);
@@ -887,7 +935,7 @@ function feedbackRoutineEachFrame() {
       fbtext.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
     if (fbtext.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       fbtext.setAutoDraw(false);
     }
@@ -928,6 +976,11 @@ function feedbackRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('feedback.stopped', globalClock.getTime());
+    if (feedbackMaxDurationReached) {
+        feedbackClock.add(feedbackMaxDuration);
+    } else {
+        feedbackClock.add(0.500000);
+    }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -937,7 +990,9 @@ function feedbackRoutineEnd(snapshot) {
 }
 
 
+var the_endMaxDurationReached;
 var _end_key_allKeys;
+var the_endMaxDuration;
 var the_endComponents;
 function the_endRoutineBegin(snapshot) {
   return async function () {
@@ -945,19 +1000,23 @@ function the_endRoutineBegin(snapshot) {
     
     //--- Prepare to start Routine 'the_end' ---
     t = 0;
-    the_endClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    the_endClock.reset();
+    routineTimer.reset();
+    the_endMaxDurationReached = false;
     // update component parameters for each repeat
-    psychoJS.experiment.addData('the_end.started', globalClock.getTime());
     end_txt.setText((("The end. You scored " + correct_counter.toString()) + " correct"));
     end_key.keys = undefined;
     end_key.rt = undefined;
     _end_key_allKeys = [];
+    psychoJS.experiment.addData('the_end.started', globalClock.getTime());
+    the_endMaxDuration = null
     // keep track of which components have finished
     the_endComponents = [];
     the_endComponents.push(end_txt);
     the_endComponents.push(end_key);
+    the_endComponents.push(text);
     
     the_endComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
@@ -1008,6 +1067,16 @@ function the_endRoutineEachFrame() {
         // a response ends the routine
         continueRoutine = false;
       }
+    }
+    
+    
+    // *text* updates
+    if (t >= 0.0 && text.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text.tStart = t;  // (not accounting for frame time here)
+      text.frameNStart = frameN;  // exact frame index
+      
+      text.setAutoDraw(true);
     }
     
     // check for quit (typically the Esc key)
