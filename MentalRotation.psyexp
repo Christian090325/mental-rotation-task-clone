@@ -278,7 +278,7 @@
         <Param val="Arial" valType="str" updates="constant" name="font"/>
         <Param val="False" valType="bool" updates="constant" name="italic"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
         <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
         <Param val="instrtxt2" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
@@ -366,7 +366,7 @@
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
       <TextComponent name="text" plugin="None">
-        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>

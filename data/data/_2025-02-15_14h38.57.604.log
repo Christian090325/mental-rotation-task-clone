@@ -1,0 +1,1082 @@
+9.1923 	INFO 	Loaded monitor calibration from ['2024_11_21 21:11']
+10.7481 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AE90A5F400>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AE90A5F0A0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AE91AD1810>, multiSample=False, name='window1', numSamples=2, pos=[283.0, 84.0], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.7482 	EXP 	window1: backgroundImage = ''
+10.7482 	EXP 	window1: backgroundFit = 'none'
+10.7951 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.7960 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.7967 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.7976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.7984 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.7989 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.7995 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8004 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8007 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8010 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8016 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8023 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8028 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8036 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8044 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8051 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8058 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8062 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8066 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8076 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8086 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8107 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.8307 	DEBUG 	Upload of Texture Font fontname complete
+10.8516 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8526 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8537 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.8540 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.8762 	DEBUG 	Upload of Texture Font fontname complete
+10.8785 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.8785 	EXP 	window1: recordFrameIntervals = False
+11.0747 	EXP 	window1: recordFrameIntervals = True
+11.2568 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+11.2568 	EXP 	window1: recordFrameIntervals = False
+11.2807 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2821 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2830 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2840 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2849 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2858 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2864 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2876 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2890 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2904 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.2909 	DEBUG 	Uploading Texture Font fontname to graphics card
+11.2920 	DEBUG 	Upload of Texture Font fontname complete
+11.3439 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+14.7071 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7073 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7073 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7074 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7074 	INFO 	keyboard.Keyboard is using iohub backend.
+14.7074 	EXP 	MentalRotation: status = STARTED
+14.7293 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7301 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7306 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7312 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7318 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7325 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7329 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7332 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7336 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7349 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7357 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7367 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7372 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7379 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7386 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7390 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7406 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7414 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7423 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7433 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7442 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7451 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7461 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7471 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7481 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7492 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7503 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7515 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7523 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7540 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7554 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7565 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7580 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.7679 	DEBUG 	Upload of Texture Font fontname complete
+14.7894 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.7898 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.7936 	DEBUG 	Upload of Texture Font fontname complete
+14.8115 	EXP 	Created image_L_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_L_3', opacity=1, ori=1.0, pos=array([-0.25,  0.2 ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+14.8159 	EXP 	Created image_R_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_R_3', opacity=1, ori=1.0, pos=array([0.25, 0.2 ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+14.8358 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8365 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8370 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8373 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8377 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8380 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8385 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8391 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8395 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8401 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8406 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8410 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8416 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8421 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8427 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8433 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8439 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8445 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8451 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8458 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8464 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8469 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8475 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8481 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8487 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8496 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8505 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8510 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8516 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8524 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8530 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8536 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8553 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8560 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8568 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.8573 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.8592 	DEBUG 	Upload of Texture Font fontname complete
+14.8867 	EXP 	Created image_L = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_L', opacity=1, ori=1.0, pos=array([-0.25,  0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+14.8920 	EXP 	Created image_R = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_R', opacity=1, ori=1.0, pos=array([0.25, 0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+15.1901 	EXP 	Created main_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='main_instr', opacity=1, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.1912 	EXP 	Created trial_count = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='trial_count', opacity=1, ori=0, pos=array([ 0.4, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.1930 	EXP 	Created fbtext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fbtext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.1938 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_txt', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.2046 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text="Press 'space' to save results", units='height', win=Window(...), wrapWidth=1)
+0.0009 	DATA 	Mouse: Left button down, pos=(417,416)
+0.0011 	DATA 	Mouse:  Left button up, pos=(417,416)
+0.0126 	EXP 	instr_textbox1: autoLog = True
+0.0126 	EXP 	instrtxt2: autoLog = True
+0.0314 	INFO 	Keyboard events cleared
+0.0308 	EXP 	instr_textbox1: autoDraw = True
+1.4063 	DATA 	Keypress: m
+1.4412 	INFO 	Keyboard events cleared
+1.4406 	EXP 	instr_textbox1: autoDraw = False
+1.4406 	EXP 	image_L_3: ori = 0.0
+1.4406 	EXP 	image_L_3: image = 'FR.png'
+1.4406 	EXP 	image_R_3: ori = -90.0
+1.4406 	EXP 	image_R_3: image = 'F.png'
+1.4406 	EXP 	image_L_3: autoDraw = True
+1.4406 	EXP 	image_R_3: autoDraw = True
+1.4406 	EXP 	instrtxt2: autoDraw = True
+5.3365 	DEBUG 	Read csv file with pandas: MentalRot.csv
+5.3514 	DEBUG 	Clearing unnamed columns from MentalRot.csv
+5.3526 	EXP 	Imported MentalRot.csv as conditions, 32 conditions, 6 params
+5.3613 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 225, 'corrAns': 'm', 'angle': 225, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+5.5300 	DATA 	Keypress: n
+5.5425 	INFO 	Keyboard events cleared
+5.5419 	EXP 	image_L_3: autoDraw = False
+5.5419 	EXP 	image_R_3: autoDraw = False
+5.5419 	EXP 	instrtxt2: autoDraw = False
+5.5419 	EXP 	image_L: ori = 0.0
+5.5419 	EXP 	image_L: image = 'FR.png'
+5.5419 	EXP 	image_R: ori = 225.0
+5.5419 	EXP 	image_R: image = 'F.png'
+5.5419 	EXP 	trial_count: height = 0.03
+5.5419 	EXP 	trial_count: height = 0.03
+5.5419 	EXP 	trial_count: height = 0.03
+5.5419 	EXP 	trial_count: text = '0/32'
+5.5419 	EXP 	image_L: autoDraw = True
+5.5419 	EXP 	image_R: autoDraw = True
+5.5419 	EXP 	main_instr: autoDraw = True
+5.5419 	EXP 	trial_count: autoDraw = True
+7.4121 	DATA 	Keypress: m
+7.4407 	EXP 	image_L: autoDraw = False
+7.4407 	EXP 	image_R: autoDraw = False
+7.4407 	EXP 	main_instr: autoDraw = False
+7.4407 	EXP 	trial_count: autoDraw = False
+7.4407 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+7.4407 	EXP 	fbtext: height = 0.05
+7.4407 	EXP 	fbtext: height = 0.05
+7.4407 	EXP 	fbtext: height = 0.05
+7.4407 	EXP 	fbtext: text = 'Correct!'
+7.4407 	EXP 	fbtext: autoDraw = True
+7.4445 	DATA 	Keypress: n
+7.6451 	DATA 	Keypress: n
+7.8109 	DATA 	Keypress: m
+7.9261 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 180, 'corrAns': 'n', 'angle': 180, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+8.0984 	DATA 	Keypress: n
+8.0987 	DATA 	Keypress: m
+8.1079 	INFO 	Keyboard events cleared
+8.1074 	EXP 	fbtext: autoDraw = False
+8.1074 	EXP 	fbtext: autoDraw = False
+8.1074 	EXP 	image_L: ori = 0.0
+8.1074 	EXP 	image_L: image = 'F.png'
+8.1074 	EXP 	image_R: ori = 180.0
+8.1074 	EXP 	image_R: image = 'F.png'
+8.1074 	EXP 	trial_count: height = 0.03
+8.1074 	EXP 	trial_count: height = 0.03
+8.1074 	EXP 	trial_count: height = 0.03
+8.1074 	EXP 	trial_count: text = '1/32'
+8.1074 	EXP 	image_L: autoDraw = True
+8.1074 	EXP 	image_R: autoDraw = True
+8.1074 	EXP 	main_instr: autoDraw = True
+8.1074 	EXP 	trial_count: autoDraw = True
+8.2964 	DATA 	Keypress: n
+8.3073 	EXP 	image_L: autoDraw = False
+8.3073 	EXP 	image_R: autoDraw = False
+8.3073 	EXP 	main_instr: autoDraw = False
+8.3073 	EXP 	trial_count: autoDraw = False
+8.3073 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+8.3073 	EXP 	fbtext: text = 'Correct!'
+8.3073 	EXP 	fbtext: autoDraw = True
+8.3621 	DATA 	Keypress: m
+8.5091 	DATA 	Keypress: n
+8.5779 	DATA 	Keypress: m
+8.7594 	DATA 	Keypress: n
+8.8081 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 45, 'corrAns': 'n', 'angle': 45, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+8.9734 	DATA 	Keypress: m
+9.0148 	INFO 	Keyboard events cleared
+9.0142 	EXP 	fbtext: autoDraw = False
+9.0142 	EXP 	image_L: ori = 0.0
+9.0142 	EXP 	image_L: image = 'FR.png'
+9.0142 	EXP 	image_R: ori = 45.0
+9.0142 	EXP 	image_R: image = 'FR.png'
+9.0142 	EXP 	trial_count: height = 0.03
+9.0142 	EXP 	trial_count: height = 0.03
+9.0142 	EXP 	trial_count: height = 0.03
+9.0142 	EXP 	trial_count: text = '2/32'
+9.0142 	EXP 	image_L: autoDraw = True
+9.0142 	EXP 	image_R: autoDraw = True
+9.0142 	EXP 	main_instr: autoDraw = True
+9.0142 	EXP 	trial_count: autoDraw = True
+9.0197 	DATA 	Keypress: n
+9.1119 	DATA 	Keypress: m
+9.1394 	EXP 	image_L: autoDraw = False
+9.1394 	EXP 	image_R: autoDraw = False
+9.1394 	EXP 	main_instr: autoDraw = False
+9.1394 	EXP 	trial_count: autoDraw = False
+9.1394 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+9.1394 	EXP 	fbtext: text = 'Correct!'
+9.1394 	EXP 	fbtext: autoDraw = True
+9.2586 	DATA 	Keypress: n
+9.3584 	DATA 	Keypress: m
+9.5417 	DATA 	Keypress: n
+9.6093 	DATA 	Keypress: m
+9.6245 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 135, 'corrAns': 'n', 'angle': 135, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+9.7981 	INFO 	Keyboard events cleared
+9.7975 	EXP 	fbtext: autoDraw = False
+9.7975 	EXP 	fbtext: autoDraw = False
+9.7975 	EXP 	image_L: ori = 0.0
+9.7975 	EXP 	image_L: image = 'F.png'
+9.7975 	EXP 	image_R: ori = 135.0
+9.7975 	EXP 	image_R: image = 'F.png'
+9.7975 	EXP 	trial_count: height = 0.03
+9.7975 	EXP 	trial_count: height = 0.03
+9.7975 	EXP 	trial_count: height = 0.03
+9.7975 	EXP 	trial_count: text = '3/32'
+9.7975 	EXP 	image_L: autoDraw = True
+9.7975 	EXP 	image_R: autoDraw = True
+9.7975 	EXP 	main_instr: autoDraw = True
+9.7975 	EXP 	trial_count: autoDraw = True
+9.8155 	DATA 	Keypress: m
+9.8218 	EXP 	image_L: autoDraw = False
+9.8218 	EXP 	image_R: autoDraw = False
+9.8218 	EXP 	main_instr: autoDraw = False
+9.8218 	EXP 	trial_count: autoDraw = False
+9.8218 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+9.8218 	EXP 	fbtext: height = 0.05
+9.8218 	EXP 	fbtext: height = 0.05
+9.8218 	EXP 	fbtext: height = 0.05
+9.8218 	EXP 	fbtext: text = 'Incorrect'
+9.8218 	EXP 	fbtext: autoDraw = True
+10.0081 	DATA 	Keypress: m
+10.2077 	DATA 	Keypress: m
+10.3072 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 315, 'corrAns': 'n', 'angle': 315, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+10.4498 	DATA 	Keypress: m
+10.4558 	INFO 	Keyboard events cleared
+10.4552 	EXP 	fbtext: autoDraw = False
+10.4552 	EXP 	fbtext: autoDraw = False
+10.4552 	EXP 	image_L: ori = 0.0
+10.4552 	EXP 	image_L: image = 'FR.png'
+10.4552 	EXP 	image_R: ori = 315.0
+10.4552 	EXP 	image_R: image = 'FR.png'
+10.4552 	EXP 	trial_count: height = 0.03
+10.4552 	EXP 	trial_count: height = 0.03
+10.4552 	EXP 	trial_count: height = 0.03
+10.4552 	EXP 	trial_count: text = '4/32'
+10.4552 	EXP 	image_L: autoDraw = True
+10.4552 	EXP 	image_R: autoDraw = True
+10.4552 	EXP 	main_instr: autoDraw = True
+10.4552 	EXP 	trial_count: autoDraw = True
+10.5597 	DATA 	Keypress: m
+10.5707 	EXP 	image_L: autoDraw = False
+10.5707 	EXP 	image_R: autoDraw = False
+10.5707 	EXP 	main_instr: autoDraw = False
+10.5707 	EXP 	trial_count: autoDraw = False
+10.5707 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+10.5707 	EXP 	fbtext: text = 'Incorrect'
+10.5707 	EXP 	fbtext: autoDraw = True
+10.7242 	DATA 	Keypress: m
+10.8907 	DATA 	Keypress: m
+11.0563 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 135, 'corrAns': 'n', 'angle': 135, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+11.1749 	DATA 	Keypress: m
+11.1881 	INFO 	Keyboard events cleared
+11.1876 	EXP 	fbtext: autoDraw = False
+11.1876 	EXP 	fbtext: autoDraw = False
+11.1876 	EXP 	image_L: ori = 0.0
+11.1876 	EXP 	image_L: image = 'FR.png'
+11.1876 	EXP 	image_R: ori = 135.0
+11.1876 	EXP 	image_R: image = 'FR.png'
+11.1876 	EXP 	trial_count: height = 0.03
+11.1876 	EXP 	trial_count: height = 0.03
+11.1876 	EXP 	trial_count: height = 0.03
+11.1876 	EXP 	trial_count: text = '5/32'
+11.1876 	EXP 	image_L: autoDraw = True
+11.1876 	EXP 	image_R: autoDraw = True
+11.1876 	EXP 	main_instr: autoDraw = True
+11.1876 	EXP 	trial_count: autoDraw = True
+11.2250 	DATA 	Keypress: m
+11.2371 	EXP 	image_L: autoDraw = False
+11.2371 	EXP 	image_R: autoDraw = False
+11.2371 	EXP 	main_instr: autoDraw = False
+11.2371 	EXP 	trial_count: autoDraw = False
+11.2371 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+11.2371 	EXP 	fbtext: text = 'Incorrect'
+11.2371 	EXP 	fbtext: autoDraw = True
+11.3906 	DATA 	Keypress: m
+11.5563 	DATA 	Keypress: m
+11.7223 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 135, 'corrAns': 'm', 'angle': 135, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+11.8535 	DATA 	Keypress: m
+11.8714 	INFO 	Keyboard events cleared
+11.8707 	EXP 	fbtext: autoDraw = False
+11.8707 	EXP 	fbtext: autoDraw = False
+11.8707 	EXP 	image_L: ori = 0.0
+11.8707 	EXP 	image_L: image = 'F.png'
+11.8707 	EXP 	image_R: ori = 135.0
+11.8707 	EXP 	image_R: image = 'FR.png'
+11.8707 	EXP 	trial_count: height = 0.03
+11.8707 	EXP 	trial_count: height = 0.03
+11.8707 	EXP 	trial_count: height = 0.03
+11.8707 	EXP 	trial_count: text = '6/32'
+11.8707 	EXP 	image_L: autoDraw = True
+11.8707 	EXP 	image_R: autoDraw = True
+11.8707 	EXP 	main_instr: autoDraw = True
+11.8707 	EXP 	trial_count: autoDraw = True
+11.9103 	DATA 	Keypress: m
+11.9194 	EXP 	image_L: autoDraw = False
+11.9194 	EXP 	image_R: autoDraw = False
+11.9194 	EXP 	main_instr: autoDraw = False
+11.9194 	EXP 	trial_count: autoDraw = False
+11.9194 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+11.9194 	EXP 	fbtext: height = 0.05
+11.9194 	EXP 	fbtext: height = 0.05
+11.9194 	EXP 	fbtext: height = 0.05
+11.9194 	EXP 	fbtext: text = 'Correct!'
+11.9194 	EXP 	fbtext: autoDraw = True
+12.0901 	DATA 	Keypress: m
+12.2556 	DATA 	Keypress: m
+12.4051 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 315, 'corrAns': 'n', 'angle': 315, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+12.5324 	DATA 	Keypress: m
+12.5535 	INFO 	Keyboard events cleared
+12.5529 	EXP 	fbtext: autoDraw = False
+12.5529 	EXP 	fbtext: autoDraw = False
+12.5529 	EXP 	image_L: ori = 0.0
+12.5529 	EXP 	image_L: image = 'F.png'
+12.5529 	EXP 	image_R: ori = 315.0
+12.5529 	EXP 	image_R: image = 'F.png'
+12.5529 	EXP 	trial_count: height = 0.03
+12.5529 	EXP 	trial_count: height = 0.03
+12.5529 	EXP 	trial_count: height = 0.03
+12.5529 	EXP 	trial_count: text = '7/32'
+12.5529 	EXP 	image_L: autoDraw = True
+12.5529 	EXP 	image_R: autoDraw = True
+12.5529 	EXP 	main_instr: autoDraw = True
+12.5529 	EXP 	trial_count: autoDraw = True
+12.6096 	DATA 	Keypress: m
+12.6186 	EXP 	image_L: autoDraw = False
+12.6186 	EXP 	image_R: autoDraw = False
+12.6186 	EXP 	main_instr: autoDraw = False
+12.6186 	EXP 	trial_count: autoDraw = False
+12.6186 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+12.6186 	EXP 	fbtext: height = 0.05
+12.6186 	EXP 	fbtext: height = 0.05
+12.6186 	EXP 	fbtext: height = 0.05
+12.6186 	EXP 	fbtext: text = 'Incorrect'
+12.6186 	EXP 	fbtext: autoDraw = True
+12.7718 	DATA 	Keypress: m
+12.9717 	DATA 	Keypress: m
+13.1045 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 315, 'corrAns': 'm', 'angle': 315, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+13.2359 	DATA 	Keypress: m
+13.2529 	INFO 	Keyboard events cleared
+13.2523 	EXP 	fbtext: autoDraw = False
+13.2523 	EXP 	fbtext: autoDraw = False
+13.2523 	EXP 	image_L: ori = 0.0
+13.2523 	EXP 	image_L: image = 'F.png'
+13.2523 	EXP 	image_R: ori = 315.0
+13.2523 	EXP 	image_R: image = 'FR.png'
+13.2523 	EXP 	trial_count: height = 0.03
+13.2523 	EXP 	trial_count: height = 0.03
+13.2523 	EXP 	trial_count: height = 0.03
+13.2523 	EXP 	trial_count: text = '8/32'
+13.2523 	EXP 	image_L: autoDraw = True
+13.2523 	EXP 	image_R: autoDraw = True
+13.2523 	EXP 	main_instr: autoDraw = True
+13.2523 	EXP 	trial_count: autoDraw = True
+13.3256 	DATA 	Keypress: m
+13.3350 	EXP 	image_L: autoDraw = False
+13.3350 	EXP 	image_R: autoDraw = False
+13.3350 	EXP 	main_instr: autoDraw = False
+13.3350 	EXP 	trial_count: autoDraw = False
+13.3350 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+13.3350 	EXP 	fbtext: height = 0.05
+13.3350 	EXP 	fbtext: height = 0.05
+13.3350 	EXP 	fbtext: height = 0.05
+13.3350 	EXP 	fbtext: text = 'Correct!'
+13.3350 	EXP 	fbtext: autoDraw = True
+13.4877 	DATA 	Keypress: m
+13.6712 	DATA 	Keypress: m
+13.8208 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 270, 'corrAns': 'n', 'angle': 270, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+13.9457 	DATA 	Keypress: m
+13.9524 	INFO 	Keyboard events cleared
+13.9517 	EXP 	fbtext: autoDraw = False
+13.9517 	EXP 	fbtext: autoDraw = False
+13.9517 	EXP 	image_L: ori = 0.0
+13.9517 	EXP 	image_L: image = 'FR.png'
+13.9517 	EXP 	image_R: ori = 270.0
+13.9517 	EXP 	image_R: image = 'FR.png'
+13.9517 	EXP 	trial_count: height = 0.03
+13.9517 	EXP 	trial_count: height = 0.03
+13.9517 	EXP 	trial_count: height = 0.03
+13.9517 	EXP 	trial_count: text = '9/32'
+13.9517 	EXP 	image_L: autoDraw = True
+13.9517 	EXP 	image_R: autoDraw = True
+13.9517 	EXP 	main_instr: autoDraw = True
+13.9517 	EXP 	trial_count: autoDraw = True
+14.0410 	DATA 	Keypress: m
+14.0506 	EXP 	image_L: autoDraw = False
+14.0506 	EXP 	image_R: autoDraw = False
+14.0506 	EXP 	main_instr: autoDraw = False
+14.0506 	EXP 	trial_count: autoDraw = False
+14.0506 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+14.0506 	EXP 	fbtext: height = 0.05
+14.0506 	EXP 	fbtext: height = 0.05
+14.0506 	EXP 	fbtext: height = 0.05
+14.0506 	EXP 	fbtext: text = 'Incorrect'
+14.0506 	EXP 	fbtext: autoDraw = True
+14.2036 	DATA 	Keypress: m
+14.3870 	DATA 	Keypress: m
+14.5358 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 45, 'corrAns': 'm', 'angle': 45, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+14.6477 	DATA 	Keypress: m
+14.6831 	INFO 	Keyboard events cleared
+14.6823 	EXP 	fbtext: autoDraw = False
+14.6823 	EXP 	fbtext: autoDraw = False
+14.6823 	EXP 	image_L: ori = 0.0
+14.6823 	EXP 	image_L: image = 'FR.png'
+14.6823 	EXP 	image_R: ori = 45.0
+14.6823 	EXP 	image_R: image = 'F.png'
+14.6823 	EXP 	trial_count: height = 0.03
+14.6823 	EXP 	trial_count: height = 0.03
+14.6823 	EXP 	trial_count: height = 0.03
+14.6823 	EXP 	trial_count: text = '10/32'
+14.6823 	EXP 	image_L: autoDraw = True
+14.6823 	EXP 	image_R: autoDraw = True
+14.6823 	EXP 	main_instr: autoDraw = True
+14.6823 	EXP 	trial_count: autoDraw = True
+14.7259 	DATA 	Keypress: m
+14.7333 	EXP 	image_L: autoDraw = False
+14.7333 	EXP 	image_R: autoDraw = False
+14.7333 	EXP 	main_instr: autoDraw = False
+14.7333 	EXP 	trial_count: autoDraw = False
+14.7333 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+14.7333 	EXP 	fbtext: height = 0.05
+14.7333 	EXP 	fbtext: height = 0.05
+14.7333 	EXP 	fbtext: height = 0.05
+14.7333 	EXP 	fbtext: text = 'Correct!'
+14.7333 	EXP 	fbtext: autoDraw = True
+14.9030 	DATA 	Keypress: m
+15.0693 	DATA 	Keypress: m
+15.2189 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 45, 'corrAns': 'n', 'angle': 45, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+15.3188 	DATA 	Keypress: m
+15.3495 	INFO 	Keyboard events cleared
+15.3486 	EXP 	fbtext: autoDraw = False
+15.3486 	EXP 	fbtext: autoDraw = False
+15.3486 	EXP 	image_L: ori = 0.0
+15.3486 	EXP 	image_L: image = 'F.png'
+15.3486 	EXP 	image_R: ori = 45.0
+15.3486 	EXP 	image_R: image = 'F.png'
+15.3486 	EXP 	trial_count: height = 0.03
+15.3486 	EXP 	trial_count: height = 0.03
+15.3486 	EXP 	trial_count: height = 0.03
+15.3486 	EXP 	trial_count: text = '11/32'
+15.3486 	EXP 	image_L: autoDraw = True
+15.3486 	EXP 	image_R: autoDraw = True
+15.3486 	EXP 	main_instr: autoDraw = True
+15.3486 	EXP 	trial_count: autoDraw = True
+15.4231 	DATA 	Keypress: m
+15.4328 	EXP 	image_L: autoDraw = False
+15.4328 	EXP 	image_R: autoDraw = False
+15.4328 	EXP 	main_instr: autoDraw = False
+15.4328 	EXP 	trial_count: autoDraw = False
+15.4328 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+15.4328 	EXP 	fbtext: height = 0.05
+15.4328 	EXP 	fbtext: height = 0.05
+15.4328 	EXP 	fbtext: height = 0.05
+15.4328 	EXP 	fbtext: text = 'Incorrect'
+15.4328 	EXP 	fbtext: autoDraw = True
+15.6026 	DATA 	Keypress: m
+15.7694 	DATA 	Keypress: m
+15.9192 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 270, 'corrAns': 'm', 'angle': 270, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+16.0296 	DATA 	Keypress: m
+16.0665 	INFO 	Keyboard events cleared
+16.0655 	EXP 	fbtext: autoDraw = False
+16.0655 	EXP 	fbtext: autoDraw = False
+16.0655 	EXP 	image_L: ori = 0.0
+16.0655 	EXP 	image_L: image = 'FR.png'
+16.0655 	EXP 	image_R: ori = 270.0
+16.0655 	EXP 	image_R: image = 'F.png'
+16.0655 	EXP 	trial_count: height = 0.03
+16.0655 	EXP 	trial_count: height = 0.03
+16.0655 	EXP 	trial_count: height = 0.03
+16.0655 	EXP 	trial_count: text = '12/32'
+16.0655 	EXP 	image_L: autoDraw = True
+16.0655 	EXP 	image_R: autoDraw = True
+16.0655 	EXP 	main_instr: autoDraw = True
+16.0655 	EXP 	trial_count: autoDraw = True
+16.1392 	DATA 	Keypress: m
+16.1486 	EXP 	image_L: autoDraw = False
+16.1486 	EXP 	image_R: autoDraw = False
+16.1486 	EXP 	main_instr: autoDraw = False
+16.1486 	EXP 	trial_count: autoDraw = False
+16.1486 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+16.1486 	EXP 	fbtext: height = 0.05
+16.1486 	EXP 	fbtext: height = 0.05
+16.1486 	EXP 	fbtext: height = 0.05
+16.1486 	EXP 	fbtext: text = 'Correct!'
+16.1486 	EXP 	fbtext: autoDraw = True
+16.3515 	DATA 	Keypress: m
+16.5353 	DATA 	Keypress: m
+16.6343 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 225, 'corrAns': 'n', 'angle': 225, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+16.7407 	DATA 	Keypress: m
+16.7643 	INFO 	Keyboard events cleared
+16.7635 	EXP 	fbtext: autoDraw = False
+16.7635 	EXP 	fbtext: autoDraw = False
+16.7635 	EXP 	image_L: ori = 0.0
+16.7635 	EXP 	image_L: image = 'F.png'
+16.7635 	EXP 	image_R: ori = 225.0
+16.7635 	EXP 	image_R: image = 'F.png'
+16.7635 	EXP 	trial_count: height = 0.03
+16.7635 	EXP 	trial_count: height = 0.03
+16.7635 	EXP 	trial_count: height = 0.03
+16.7635 	EXP 	trial_count: text = '13/32'
+16.7635 	EXP 	image_L: autoDraw = True
+16.7635 	EXP 	image_R: autoDraw = True
+16.7635 	EXP 	main_instr: autoDraw = True
+16.7635 	EXP 	trial_count: autoDraw = True
+16.9074 	DATA 	Keypress: m
+16.9150 	EXP 	image_L: autoDraw = False
+16.9150 	EXP 	image_R: autoDraw = False
+16.9150 	EXP 	main_instr: autoDraw = False
+16.9150 	EXP 	trial_count: autoDraw = False
+16.9150 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+16.9150 	EXP 	fbtext: height = 0.05
+16.9150 	EXP 	fbtext: height = 0.05
+16.9150 	EXP 	fbtext: height = 0.05
+16.9150 	EXP 	fbtext: text = 'Incorrect'
+16.9150 	EXP 	fbtext: autoDraw = True
+17.0845 	DATA 	Keypress: m
+17.2842 	DATA 	Keypress: m
+17.4000 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 135, 'corrAns': 'm', 'angle': 135, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+17.4915 	DATA 	Keypress: m
+17.5136 	INFO 	Keyboard events cleared
+17.5128 	EXP 	fbtext: autoDraw = False
+17.5128 	EXP 	fbtext: autoDraw = False
+17.5128 	EXP 	image_L: ori = 0.0
+17.5128 	EXP 	image_L: image = 'FR.png'
+17.5128 	EXP 	image_R: ori = 135.0
+17.5128 	EXP 	image_R: image = 'F.png'
+17.5128 	EXP 	trial_count: height = 0.03
+17.5128 	EXP 	trial_count: height = 0.03
+17.5128 	EXP 	trial_count: height = 0.03
+17.5128 	EXP 	trial_count: text = '14/32'
+17.5128 	EXP 	image_L: autoDraw = True
+17.5128 	EXP 	image_R: autoDraw = True
+17.5128 	EXP 	main_instr: autoDraw = True
+17.5128 	EXP 	trial_count: autoDraw = True
+17.6378 	DATA 	Keypress: m
+17.6473 	EXP 	image_L: autoDraw = False
+17.6473 	EXP 	image_R: autoDraw = False
+17.6473 	EXP 	main_instr: autoDraw = False
+17.6473 	EXP 	trial_count: autoDraw = False
+17.6473 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.6473 	EXP 	fbtext: height = 0.05
+17.6473 	EXP 	fbtext: height = 0.05
+17.6473 	EXP 	fbtext: height = 0.05
+17.6473 	EXP 	fbtext: text = 'Correct!'
+17.6473 	EXP 	fbtext: autoDraw = True
+17.8173 	DATA 	Keypress: m
+18.0000 	DATA 	Keypress: m
+18.1325 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 225, 'corrAns': 'n', 'angle': 225, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+18.2613 	DATA 	Keypress: m
+18.2968 	INFO 	Keyboard events cleared
+18.2958 	EXP 	fbtext: autoDraw = False
+18.2958 	EXP 	fbtext: autoDraw = False
+18.2958 	EXP 	image_L: ori = 0.0
+18.2958 	EXP 	image_L: image = 'FR.png'
+18.2958 	EXP 	image_R: ori = 225.0
+18.2958 	EXP 	image_R: image = 'FR.png'
+18.2958 	EXP 	trial_count: height = 0.03
+18.2958 	EXP 	trial_count: height = 0.03
+18.2958 	EXP 	trial_count: height = 0.03
+18.2958 	EXP 	trial_count: text = '15/32'
+18.2958 	EXP 	image_L: autoDraw = True
+18.2958 	EXP 	image_R: autoDraw = True
+18.2958 	EXP 	main_instr: autoDraw = True
+18.2958 	EXP 	trial_count: autoDraw = True
+18.3873 	DATA 	Keypress: m
+18.3967 	EXP 	image_L: autoDraw = False
+18.3967 	EXP 	image_R: autoDraw = False
+18.3967 	EXP 	main_instr: autoDraw = False
+18.3967 	EXP 	trial_count: autoDraw = False
+18.3967 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+18.3967 	EXP 	fbtext: height = 0.05
+18.3967 	EXP 	fbtext: height = 0.05
+18.3967 	EXP 	fbtext: height = 0.05
+18.3967 	EXP 	fbtext: text = 'Incorrect'
+18.3967 	EXP 	fbtext: autoDraw = True
+18.5663 	DATA 	Keypress: m
+18.7493 	DATA 	Keypress: m
+18.8982 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 225, 'corrAns': 'm', 'angle': 225, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+18.9997 	DATA 	Keypress: m
+19.0289 	INFO 	Keyboard events cleared
+19.0281 	EXP 	fbtext: autoDraw = False
+19.0281 	EXP 	image_L: ori = 0.0
+19.0281 	EXP 	image_L: image = 'F.png'
+19.0281 	EXP 	image_R: ori = 225.0
+19.0281 	EXP 	image_R: image = 'FR.png'
+19.0281 	EXP 	trial_count: height = 0.03
+19.0281 	EXP 	trial_count: height = 0.03
+19.0281 	EXP 	trial_count: height = 0.03
+19.0281 	EXP 	trial_count: text = '16/32'
+19.0281 	EXP 	image_L: autoDraw = True
+19.0281 	EXP 	image_R: autoDraw = True
+19.0281 	EXP 	main_instr: autoDraw = True
+19.0281 	EXP 	trial_count: autoDraw = True
+19.1027 	DATA 	Keypress: m
+19.1126 	EXP 	image_L: autoDraw = False
+19.1126 	EXP 	image_R: autoDraw = False
+19.1126 	EXP 	main_instr: autoDraw = False
+19.1126 	EXP 	trial_count: autoDraw = False
+19.1126 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.1126 	EXP 	fbtext: height = 0.05
+19.1126 	EXP 	fbtext: height = 0.05
+19.1126 	EXP 	fbtext: height = 0.05
+19.1126 	EXP 	fbtext: text = 'Correct!'
+19.1126 	EXP 	fbtext: autoDraw = True
+19.2987 	DATA 	Keypress: m
+19.4651 	DATA 	Keypress: m
+19.5979 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 45, 'corrAns': 'm', 'angle': 45, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+19.6971 	DATA 	Keypress: m
+19.7186 	INFO 	Keyboard events cleared
+19.7180 	EXP 	fbtext: autoDraw = False
+19.7180 	EXP 	fbtext: autoDraw = False
+19.7180 	EXP 	image_L: ori = 0.0
+19.7180 	EXP 	image_L: image = 'F.png'
+19.7180 	EXP 	image_R: ori = 45.0
+19.7180 	EXP 	image_R: image = 'FR.png'
+19.7180 	EXP 	trial_count: height = 0.03
+19.7180 	EXP 	trial_count: height = 0.03
+19.7180 	EXP 	trial_count: height = 0.03
+19.7180 	EXP 	trial_count: text = '17/32'
+19.7180 	EXP 	image_L: autoDraw = True
+19.7180 	EXP 	image_R: autoDraw = True
+19.7180 	EXP 	main_instr: autoDraw = True
+19.7180 	EXP 	trial_count: autoDraw = True
+19.8503 	DATA 	Keypress: m
+19.8617 	EXP 	image_L: autoDraw = False
+19.8617 	EXP 	image_R: autoDraw = False
+19.8617 	EXP 	main_instr: autoDraw = False
+19.8617 	EXP 	trial_count: autoDraw = False
+19.8617 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.8617 	EXP 	fbtext: text = 'Correct!'
+19.8617 	EXP 	fbtext: autoDraw = True
+20.0484 	DATA 	Keypress: m
+20.2314 	DATA 	Keypress: m
+20.3474 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 180, 'corrAns': 'm', 'angle': 180, 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+20.4510 	DATA 	Keypress: m
+20.4867 	INFO 	Keyboard events cleared
+20.4862 	EXP 	fbtext: autoDraw = False
+20.4862 	EXP 	fbtext: autoDraw = False
+20.4862 	EXP 	image_L: ori = 0.0
+20.4862 	EXP 	image_L: image = 'FR.png'
+20.4862 	EXP 	image_R: ori = 180.0
+20.4862 	EXP 	image_R: image = 'F.png'
+20.4862 	EXP 	trial_count: height = 0.03
+20.4862 	EXP 	trial_count: height = 0.03
+20.4862 	EXP 	trial_count: height = 0.03
+20.4862 	EXP 	trial_count: text = '18/32'
+20.4862 	EXP 	image_L: autoDraw = True
+20.4862 	EXP 	image_R: autoDraw = True
+20.4862 	EXP 	main_instr: autoDraw = True
+20.4862 	EXP 	trial_count: autoDraw = True
+20.6164 	DATA 	Keypress: m
+20.6276 	EXP 	image_L: autoDraw = False
+20.6276 	EXP 	image_R: autoDraw = False
+20.6276 	EXP 	main_instr: autoDraw = False
+20.6276 	EXP 	trial_count: autoDraw = False
+20.6276 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+20.6276 	EXP 	fbtext: text = 'Correct!'
+20.6276 	EXP 	fbtext: autoDraw = True
+20.9479 	DATA 	Keypress: m
+21.1127 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 315, 'corrAns': 'm', 'angle': 315, 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+21.2124 	DATA 	Keypress: m
+21.2343 	INFO 	Keyboard events cleared
+21.2336 	EXP 	fbtext: autoDraw = False
+21.2336 	EXP 	fbtext: autoDraw = False
+21.2336 	EXP 	image_L: ori = 0.0
+21.2336 	EXP 	image_L: image = 'FR.png'
+21.2336 	EXP 	image_R: ori = 315.0
+21.2336 	EXP 	image_R: image = 'F.png'
+21.2336 	EXP 	trial_count: height = 0.03
+21.2336 	EXP 	trial_count: height = 0.03
+21.2336 	EXP 	trial_count: height = 0.03
+21.2336 	EXP 	trial_count: text = '19/32'
+21.2336 	EXP 	image_L: autoDraw = True
+21.2336 	EXP 	image_R: autoDraw = True
+21.2336 	EXP 	main_instr: autoDraw = True
+21.2336 	EXP 	trial_count: autoDraw = True
+21.3326 	DATA 	Keypress: m
+21.3436 	EXP 	image_L: autoDraw = False
+21.3436 	EXP 	image_R: autoDraw = False
+21.3436 	EXP 	main_instr: autoDraw = False
+21.3436 	EXP 	trial_count: autoDraw = False
+21.3436 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+21.3436 	EXP 	fbtext: text = 'Correct!'
+21.3436 	EXP 	fbtext: autoDraw = True
+21.5131 	DATA 	Keypress: m
+21.6799 	DATA 	Keypress: m
+21.8293 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 90, 'corrAns': 'n', 'angle': 90, 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+21.9366 	DATA 	Keypress: m
+21.9599 	INFO 	Keyboard events cleared
+21.9591 	EXP 	fbtext: autoDraw = False
+21.9591 	EXP 	fbtext: autoDraw = False
+21.9591 	EXP 	image_L: ori = 0.0
+21.9591 	EXP 	image_L: image = 'FR.png'
+21.9591 	EXP 	image_R: ori = 90.0
+21.9591 	EXP 	image_R: image = 'FR.png'
+21.9591 	EXP 	trial_count: height = 0.03
+21.9591 	EXP 	trial_count: height = 0.03
+21.9591 	EXP 	trial_count: height = 0.03
+21.9591 	EXP 	trial_count: text = '20/32'
+21.9591 	EXP 	image_L: autoDraw = True
+21.9591 	EXP 	image_R: autoDraw = True
+21.9591 	EXP 	main_instr: autoDraw = True
+21.9591 	EXP 	trial_count: autoDraw = True
+22.0502 	DATA 	Keypress: m
+22.0601 	EXP 	image_L: autoDraw = False
+22.0601 	EXP 	image_R: autoDraw = False
+22.0601 	EXP 	main_instr: autoDraw = False
+22.0601 	EXP 	trial_count: autoDraw = False
+22.0601 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+22.0601 	EXP 	fbtext: height = 0.05
+22.0601 	EXP 	fbtext: height = 0.05
+22.0601 	EXP 	fbtext: height = 0.05
+22.0601 	EXP 	fbtext: text = 'Incorrect'
+22.0601 	EXP 	fbtext: autoDraw = True
+22.2292 	DATA 	Keypress: m
+22.3957 	DATA 	Keypress: m
+22.5464 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 0, 'corrAns': 'n', 'angle': 0, 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+22.6374 	DATA 	Keypress: m
+22.6486 	INFO 	Keyboard events cleared
+22.6481 	EXP 	fbtext: autoDraw = False
+22.6481 	EXP 	fbtext: autoDraw = False
+22.6481 	EXP 	image_L: ori = 0.0
+22.6481 	EXP 	image_L: image = 'FR.png'
+22.6481 	EXP 	image_R: ori = 0.0
+22.6481 	EXP 	image_R: image = 'FR.png'
+22.6481 	EXP 	trial_count: height = 0.03
+22.6481 	EXP 	trial_count: height = 0.03
+22.6481 	EXP 	trial_count: height = 0.03
+22.6481 	EXP 	trial_count: text = '21/32'
+22.6481 	EXP 	image_L: autoDraw = True
+22.6481 	EXP 	image_R: autoDraw = True
+22.6481 	EXP 	main_instr: autoDraw = True
+22.6481 	EXP 	trial_count: autoDraw = True
+22.7654 	DATA 	Keypress: m
+22.7753 	EXP 	image_L: autoDraw = False
+22.7753 	EXP 	image_R: autoDraw = False
+22.7753 	EXP 	main_instr: autoDraw = False
+22.7753 	EXP 	trial_count: autoDraw = False
+22.7753 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+22.7753 	EXP 	fbtext: text = 'Incorrect'
+22.7753 	EXP 	fbtext: autoDraw = True
+22.9617 	DATA 	Keypress: m
+23.1618 	DATA 	Keypress: m
+23.2611 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 0, 'corrAns': 'n', 'angle': 0, 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+23.3606 	DATA 	Keypress: m
+23.4019 	INFO 	Keyboard events cleared
+23.4014 	EXP 	fbtext: autoDraw = False
+23.4014 	EXP 	fbtext: autoDraw = False
+23.4014 	EXP 	image_L: ori = 0.0
+23.4014 	EXP 	image_L: image = 'F.png'
+23.4014 	EXP 	image_R: ori = 0.0
+23.4014 	EXP 	image_R: image = 'F.png'
+23.4014 	EXP 	trial_count: height = 0.03
+23.4014 	EXP 	trial_count: height = 0.03
+23.4014 	EXP 	trial_count: height = 0.03
+23.4014 	EXP 	trial_count: text = '22/32'
+23.4014 	EXP 	image_L: autoDraw = True
+23.4014 	EXP 	image_R: autoDraw = True
+23.4014 	EXP 	main_instr: autoDraw = True
+23.4014 	EXP 	trial_count: autoDraw = True
+23.5299 	DATA 	Keypress: m
+23.5413 	EXP 	image_L: autoDraw = False
+23.5413 	EXP 	image_R: autoDraw = False
+23.5413 	EXP 	main_instr: autoDraw = False
+23.5413 	EXP 	trial_count: autoDraw = False
+23.5413 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+23.5413 	EXP 	fbtext: text = 'Incorrect'
+23.5413 	EXP 	fbtext: autoDraw = True
+23.7278 	DATA 	Keypress: m
+23.9111 	DATA 	Keypress: m
+24.0272 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 270, 'corrAns': 'm', 'angle': 270, 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+24.1297 	DATA 	Keypress: m
+24.1569 	INFO 	Keyboard events cleared
+24.1561 	EXP 	fbtext: autoDraw = False
+24.1561 	EXP 	fbtext: autoDraw = False
+24.1561 	EXP 	image_L: ori = 0.0
+24.1561 	EXP 	image_L: image = 'F.png'
+24.1561 	EXP 	image_R: ori = 270.0
+24.1561 	EXP 	image_R: image = 'FR.png'
+24.1561 	EXP 	trial_count: height = 0.03
+24.1561 	EXP 	trial_count: height = 0.03
+24.1561 	EXP 	trial_count: height = 0.03
+24.1561 	EXP 	trial_count: text = '23/32'
+24.1561 	EXP 	image_L: autoDraw = True
+24.1561 	EXP 	image_R: autoDraw = True
+24.1561 	EXP 	main_instr: autoDraw = True
+24.1561 	EXP 	trial_count: autoDraw = True
+24.2820 	DATA 	Keypress: m
+24.2907 	EXP 	image_L: autoDraw = False
+24.2907 	EXP 	image_R: autoDraw = False
+24.2907 	EXP 	main_instr: autoDraw = False
+24.2907 	EXP 	trial_count: autoDraw = False
+24.2907 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+24.2907 	EXP 	fbtext: height = 0.05
+24.2907 	EXP 	fbtext: height = 0.05
+24.2907 	EXP 	fbtext: height = 0.05
+24.2907 	EXP 	fbtext: text = 'Correct!'
+24.2907 	EXP 	fbtext: autoDraw = True
+24.4774 	DATA 	Keypress: m
+24.6597 	DATA 	Keypress: m
+24.7763 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 90, 'corrAns': 'm', 'angle': 90, 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+24.8774 	DATA 	Keypress: m
+24.8965 	INFO 	Keyboard events cleared
+24.8958 	EXP 	fbtext: autoDraw = False
+24.8958 	EXP 	fbtext: autoDraw = False
+24.8958 	EXP 	image_L: ori = 0.0
+24.8958 	EXP 	image_L: image = 'F.png'
+24.8958 	EXP 	image_R: ori = 90.0
+24.8958 	EXP 	image_R: image = 'FR.png'
+24.8958 	EXP 	trial_count: height = 0.03
+24.8958 	EXP 	trial_count: height = 0.03
+24.8958 	EXP 	trial_count: height = 0.03
+24.8958 	EXP 	trial_count: text = '24/32'
+24.8958 	EXP 	image_L: autoDraw = True
+24.8958 	EXP 	image_R: autoDraw = True
+24.8958 	EXP 	main_instr: autoDraw = True
+24.8958 	EXP 	trial_count: autoDraw = True
+25.0787 	DATA 	Keypress: m
+25.0899 	EXP 	image_L: autoDraw = False
+25.0899 	EXP 	image_R: autoDraw = False
+25.0899 	EXP 	main_instr: autoDraw = False
+25.0899 	EXP 	trial_count: autoDraw = False
+25.0899 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+25.0899 	EXP 	fbtext: text = 'Correct!'
+25.0899 	EXP 	fbtext: autoDraw = True
+25.2606 	DATA 	Keypress: m
+25.4763 	DATA 	Keypress: m
+25.5768 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 90, 'corrAns': 'm', 'angle': 90, 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+25.6828 	DATA 	Keypress: m
+25.7151 	INFO 	Keyboard events cleared
+25.7146 	EXP 	fbtext: autoDraw = False
+25.7146 	EXP 	fbtext: autoDraw = False
+25.7146 	EXP 	image_L: ori = 0.0
+25.7146 	EXP 	image_L: image = 'FR.png'
+25.7146 	EXP 	image_R: ori = 90.0
+25.7146 	EXP 	image_R: image = 'F.png'
+25.7146 	EXP 	trial_count: height = 0.03
+25.7146 	EXP 	trial_count: height = 0.03
+25.7146 	EXP 	trial_count: height = 0.03
+25.7146 	EXP 	trial_count: text = '25/32'
+25.7146 	EXP 	image_L: autoDraw = True
+25.7146 	EXP 	image_R: autoDraw = True
+25.7146 	EXP 	main_instr: autoDraw = True
+25.7146 	EXP 	trial_count: autoDraw = True
+25.8940 	DATA 	Keypress: m
+25.9057 	EXP 	image_L: autoDraw = False
+25.9057 	EXP 	image_R: autoDraw = False
+25.9057 	EXP 	main_instr: autoDraw = False
+25.9057 	EXP 	trial_count: autoDraw = False
+25.9057 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+25.9057 	EXP 	fbtext: text = 'Correct!'
+25.9057 	EXP 	fbtext: autoDraw = True
+26.0921 	DATA 	Keypress: m
+26.2756 	DATA 	Keypress: m
+26.3939 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 180, 'corrAns': 'm', 'angle': 180, 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+26.5047 	DATA 	Keypress: m
+26.5483 	INFO 	Keyboard events cleared
+26.5477 	EXP 	fbtext: autoDraw = False
+26.5477 	EXP 	image_L: ori = 0.0
+26.5477 	EXP 	image_L: image = 'F.png'
+26.5477 	EXP 	image_R: ori = 180.0
+26.5477 	EXP 	image_R: image = 'FR.png'
+26.5477 	EXP 	trial_count: height = 0.03
+26.5477 	EXP 	trial_count: height = 0.03
+26.5477 	EXP 	trial_count: height = 0.03
+26.5477 	EXP 	trial_count: text = '26/32'
+26.5477 	EXP 	image_L: autoDraw = True
+26.5477 	EXP 	image_R: autoDraw = True
+26.5477 	EXP 	main_instr: autoDraw = True
+26.5477 	EXP 	trial_count: autoDraw = True
+26.8934 	DATA 	Keypress: m
+26.9049 	EXP 	image_L: autoDraw = False
+26.9049 	EXP 	image_R: autoDraw = False
+26.9049 	EXP 	main_instr: autoDraw = False
+26.9049 	EXP 	trial_count: autoDraw = False
+26.9049 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+26.9049 	EXP 	fbtext: text = 'Correct!'
+26.9049 	EXP 	fbtext: autoDraw = True
+27.3903 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'left_im': 'FR.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 0, 'corrAns': 'm', 'angle': 0, 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+27.5140 	INFO 	Keyboard events cleared
+27.5134 	EXP 	fbtext: autoDraw = False
+27.5134 	EXP 	fbtext: autoDraw = False
+27.5134 	EXP 	image_L: ori = 0.0
+27.5134 	EXP 	image_L: image = 'FR.png'
+27.5134 	EXP 	image_R: ori = 0.0
+27.5134 	EXP 	image_R: image = 'F.png'
+27.5134 	EXP 	trial_count: height = 0.03
+27.5134 	EXP 	trial_count: height = 0.03
+27.5134 	EXP 	trial_count: height = 0.03
+27.5134 	EXP 	trial_count: text = '27/32'
+27.5134 	EXP 	image_L: autoDraw = True
+27.5134 	EXP 	image_R: autoDraw = True
+27.5134 	EXP 	main_instr: autoDraw = True
+27.5134 	EXP 	trial_count: autoDraw = True
+27.7759 	DATA 	Keypress: m
+27.7876 	EXP 	image_L: autoDraw = False
+27.7876 	EXP 	image_R: autoDraw = False
+27.7876 	EXP 	main_instr: autoDraw = False
+27.7876 	EXP 	trial_count: autoDraw = False
+27.7876 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+27.7876 	EXP 	fbtext: text = 'Correct!'
+27.7876 	EXP 	fbtext: autoDraw = True
+28.2726 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 90, 'corrAns': 'n', 'angle': 90, 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+28.4034 	INFO 	Keyboard events cleared
+28.4026 	EXP 	fbtext: autoDraw = False
+28.4026 	EXP 	fbtext: autoDraw = False
+28.4026 	EXP 	image_L: ori = 0.0
+28.4026 	EXP 	image_L: image = 'F.png'
+28.4026 	EXP 	image_R: ori = 90.0
+28.4026 	EXP 	image_R: image = 'F.png'
+28.4026 	EXP 	trial_count: height = 0.03
+28.4026 	EXP 	trial_count: height = 0.03
+28.4026 	EXP 	trial_count: height = 0.03
+28.4026 	EXP 	trial_count: text = '28/32'
+28.4026 	EXP 	image_L: autoDraw = True
+28.4026 	EXP 	image_R: autoDraw = True
+28.4026 	EXP 	main_instr: autoDraw = True
+28.4026 	EXP 	trial_count: autoDraw = True
+28.6440 	DATA 	Keypress: m
+28.6532 	EXP 	image_L: autoDraw = False
+28.6532 	EXP 	image_R: autoDraw = False
+28.6532 	EXP 	main_instr: autoDraw = False
+28.6532 	EXP 	trial_count: autoDraw = False
+28.6532 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+28.6532 	EXP 	fbtext: height = 0.05
+28.6532 	EXP 	fbtext: height = 0.05
+28.6532 	EXP 	fbtext: height = 0.05
+28.6532 	EXP 	fbtext: text = 'Incorrect'
+28.6532 	EXP 	fbtext: autoDraw = True
+29.1390 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'left_im': 'F.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 0, 'corrAns': 'm', 'angle': 0, 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+29.2694 	INFO 	Keyboard events cleared
+29.2688 	EXP 	fbtext: autoDraw = False
+29.2688 	EXP 	fbtext: autoDraw = False
+29.2688 	EXP 	image_L: ori = 0.0
+29.2688 	EXP 	image_L: image = 'F.png'
+29.2688 	EXP 	image_R: ori = 0.0
+29.2688 	EXP 	image_R: image = 'FR.png'
+29.2688 	EXP 	trial_count: height = 0.03
+29.2688 	EXP 	trial_count: height = 0.03
+29.2688 	EXP 	trial_count: height = 0.03
+29.2688 	EXP 	trial_count: text = '29/32'
+29.2688 	EXP 	image_L: autoDraw = True
+29.2688 	EXP 	image_R: autoDraw = True
+29.2688 	EXP 	main_instr: autoDraw = True
+29.2688 	EXP 	trial_count: autoDraw = True
+29.4929 	DATA 	Keypress: m
+29.5020 	EXP 	image_L: autoDraw = False
+29.5020 	EXP 	image_R: autoDraw = False
+29.5020 	EXP 	main_instr: autoDraw = False
+29.5020 	EXP 	trial_count: autoDraw = False
+29.5020 	EXP 	fbtext: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+29.5020 	EXP 	fbtext: height = 0.05
+29.5020 	EXP 	fbtext: height = 0.05
+29.5020 	EXP 	fbtext: height = 0.05
+29.5020 	EXP 	fbtext: text = 'Correct!'
+29.5020 	EXP 	fbtext: autoDraw = True
+29.9878 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'left_im': 'F.png', 'right_im': 'F.png', 'leftori': 0, 'rightori': 270, 'corrAns': 'n', 'angle': 270, 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+30.1193 	INFO 	Keyboard events cleared
+30.1185 	EXP 	fbtext: autoDraw = False
+30.1185 	EXP 	fbtext: autoDraw = False
+30.1185 	EXP 	image_L: ori = 0.0
+30.1185 	EXP 	image_L: image = 'F.png'
+30.1185 	EXP 	image_R: ori = 270.0
+30.1185 	EXP 	image_R: image = 'F.png'
+30.1185 	EXP 	trial_count: height = 0.03
+30.1185 	EXP 	trial_count: height = 0.03
+30.1185 	EXP 	trial_count: height = 0.03
+30.1185 	EXP 	trial_count: text = '30/32'
+30.1185 	EXP 	image_L: autoDraw = True
+30.1185 	EXP 	image_R: autoDraw = True
+30.1185 	EXP 	main_instr: autoDraw = True
+30.1185 	EXP 	trial_count: autoDraw = True
+30.3750 	DATA 	Keypress: m
+30.3849 	EXP 	image_L: autoDraw = False
+30.3849 	EXP 	image_R: autoDraw = False
+30.3849 	EXP 	main_instr: autoDraw = False
+30.3849 	EXP 	trial_count: autoDraw = False
+30.3849 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+30.3849 	EXP 	fbtext: height = 0.05
+30.3849 	EXP 	fbtext: height = 0.05
+30.3849 	EXP 	fbtext: height = 0.05
+30.3849 	EXP 	fbtext: text = 'Incorrect'
+30.3849 	EXP 	fbtext: autoDraw = True
+30.5543 	DATA 	Keypress: m
+30.8702 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'left_im': 'FR.png', 'right_im': 'FR.png', 'leftori': 0, 'rightori': 180, 'corrAns': 'n', 'angle': 180, 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+31.0101 	INFO 	Keyboard events cleared
+31.0095 	EXP 	fbtext: autoDraw = False
+31.0095 	EXP 	fbtext: autoDraw = False
+31.0095 	EXP 	image_L: ori = 0.0
+31.0095 	EXP 	image_L: image = 'FR.png'
+31.0095 	EXP 	image_R: ori = 180.0
+31.0095 	EXP 	image_R: image = 'FR.png'
+31.0095 	EXP 	trial_count: height = 0.03
+31.0095 	EXP 	trial_count: height = 0.03
+31.0095 	EXP 	trial_count: height = 0.03
+31.0095 	EXP 	trial_count: text = '31/32'
+31.0095 	EXP 	image_L: autoDraw = True
+31.0095 	EXP 	image_R: autoDraw = True
+31.0095 	EXP 	main_instr: autoDraw = True
+31.0095 	EXP 	trial_count: autoDraw = True
+31.3239 	DATA 	Keypress: m
+31.3339 	EXP 	image_L: autoDraw = False
+31.3339 	EXP 	image_R: autoDraw = False
+31.3339 	EXP 	main_instr: autoDraw = False
+31.3339 	EXP 	trial_count: autoDraw = False
+31.3339 	EXP 	fbtext: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+31.3339 	EXP 	fbtext: text = 'Incorrect'
+31.3339 	EXP 	fbtext: autoDraw = True
+31.8842 	INFO 	Keyboard events cleared
+31.8835 	EXP 	fbtext: autoDraw = False
+31.8835 	EXP 	end_txt: height = 0.05
+31.8835 	EXP 	end_txt: height = 0.05
+31.8835 	EXP 	end_txt: height = 0.05
+31.8835 	EXP 	end_txt: text = 'The end. You scored 18 correct'
+31.8835 	EXP 	end_txt: autoDraw = True
+31.8835 	EXP 	text: autoDraw = True
+36.4001 	DATA 	Keypress: m
+36.7824 	DATA 	Keypress: n
+37.1489 	DATA 	Keypress: n
+37.4977 	DATA 	Keypress: space
+37.5112 	EXP 	end_txt: autoDraw = False
+37.5112 	EXP 	text: autoDraw = False
+37.5132 	EXP 	MentalRotation: status = STOPPED
+37.5313 	INFO 	saved data to 'data\\data\\_2025-02-15_14h38.57.604.csv'
+37.5347 	INFO 	saved data to data\data\_2025-02-15_14h38.57.604.psydat
+38.1063 	DEBUG 	Saving data for MentalRotation ExperimentHandler

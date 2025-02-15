@@ -206,7 +206,7 @@ async function experimentInit() {
     font: 'Arial',
     pos: [0, (- 0.25)], 
     draggable: false,
-    letterHeight: 0.05,
+    letterHeight: 0.03,
     lineSpacing: 1.0,
     size: [1, 0.5],  units: undefined, 
     ori: 0.0,
@@ -319,7 +319,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, (- 0.2)], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: undefined,
     depth: -2.0 
   });
   
