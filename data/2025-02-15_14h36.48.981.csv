@@ -1,0 +1,8 @@
+﻿Intructions_1.started,Intructions_1.stopped,instr_key_1.keys,instr_key_1.rt,instr_key_1.duration,session,participant,date,expName,psychopyVersion,OS,frameRate,Intructions_2.started,Intructions_2.stopped,trial.started,trial.stopped,key_resp.keys,key_resp.corr,key_resp.rt,key_resp.duration,feedback.started,feedback.stopped,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,left_im,right_im,leftori,rightori,corrAns,angle,trials.order
+0.0002,0.807,m,0.7903,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,,,,,,,,,,,,,,,,,,,,,,
+,,,,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,0.8092,9.8148,,,,,,,,,,,,,,,,,,,,
+,,,,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,,,9.8216,14.3435,n,1,4.4352,,14.3437,14.8429,0,0,0,8,1,F.png,F.png,0,180,n,180,
+,,,,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,,,14.8478,16.1432,n,1,1.2107,,16.1432,16.6436,0,1,1,18,1,FR.png,FR.png,0,45,n,45,
+,,,,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,,,16.645,17.666,m,1,0.9616,,17.6663,18.1578,0,2,2,1,1,F.png,FR.png,0,0,m,0,
+,,,,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,,,18.1591,20.7547,n,1,2.536,,20.7553,21.2588,0,3,3,22,1,FR.png,FR.png,0,135,n,135,
+,,,,,001,,2025-02-15_14h36.48.981,MentalRotation,2024.2.4,Win32,59.88023952,,,21.2602,,,,,,,,0,4,4,3,1,F.png,FR.png,0,45,m,45,31
