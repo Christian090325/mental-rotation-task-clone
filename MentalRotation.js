@@ -1009,7 +1009,35 @@ function the_endRoutineBegin(snapshot) {
     routineTimer.reset();
     the_endMaxDurationReached = false;
     // update component parameters for each repeat
-    end_txt.setText((("The end. You scored " + correct_counter.toString()) + " correct"));
+    // Calculate performance metrics
+const totalTrials = trialsLoop.nTotal || 31; // Use 31 as fallback if variable not found
+const percentCorrect = ((correct_counter / totalTrials) * 100).toFixed(1);
+
+// Calculate average response time (if available)
+let avgRT = "N/A";
+try {
+  // This assumes response times are stored in an array called rt or similar
+  const allRTs = psychoJS.experiment.getData('key_resp.rt');
+  if (allRTs && allRTs.length > 0) {
+    const validRTs = allRTs.filter(rt => rt !== undefined && !isNaN(rt));
+    const sumRT = validRTs.reduce((sum, rt) => sum + rt, 0);
+    avgRT = (sumRT / validRTs.length).toFixed(2) + " seconds";
+  }
+} catch (e) {
+  console.log("Could not calculate average RT", e);
+}
+
+// Create a clear results summary
+const resultsSummary = 
+  `MENTAL ROTATION TASK RESULTS\n\n` +
+  `Total correct: ${correct_counter} out of ${totalTrials}\n` +
+  `Accuracy: ${percentCorrect}%\n` +
+  `Average response time: ${avgRT}\n\n` +
+  `-------------------------------\n` +
+  `COPY THE ABOVE RESULTS TO PASTE INTO QUALTRICS\n` +
+  `Press SPACE to save your data and close this task`;
+
+end_txt.setText(resultsSummary);
     end_key.keys = undefined;
     end_key.rt = undefined;
     _end_key_allKeys = [];
