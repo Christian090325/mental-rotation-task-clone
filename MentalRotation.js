@@ -1012,10 +1012,39 @@ function the_endRoutineBegin(snapshot) {
       `Accuracy: ${percentCorrect}%\n` +
       `Average response time: ${avgRT}\n\n` +
       `-------------------------------\n` +
-      `COPY THE ABOVE RESULTS TO PASTE INTO QUALTRICS\n` +
+      `RESULTS ARE IN THE TEXT BOX BELOW - SELECT ALL AND COPY\n` +
       `Press SPACE to save your data and close this task`;
     
     end_txt.setText(resultsSummary);
+    
+    // Create a copyable text summary for the text box
+    const copyableResults = `Total correct: ${correct_counter} out of ${totalTrials}, Accuracy: ${percentCorrect}%, Average response time: ${avgRT}`;
+    
+    // Add a text input element to the page for easy copying
+    if (!document.getElementById('resultsBox')) {
+      const resultsBox = document.createElement('textarea');
+      resultsBox.id = 'resultsBox';
+      resultsBox.value = copyableResults;
+      resultsBox.style.position = 'absolute';
+      resultsBox.style.bottom = '20%';
+      resultsBox.style.left = '50%';
+      resultsBox.style.transform = 'translateX(-50%)';
+      resultsBox.style.width = '400px';
+      resultsBox.style.height = '60px';
+      resultsBox.style.fontSize = '14px';
+      resultsBox.style.textAlign = 'center';
+      resultsBox.style.border = '2px solid #000';
+      resultsBox.style.backgroundColor = '#f0f0f0';
+      resultsBox.style.zIndex = '1000';
+      resultsBox.readOnly = true;
+      document.body.appendChild(resultsBox);
+      
+      // Auto-select the text for easy copying
+      setTimeout(() => {
+        resultsBox.select();
+        resultsBox.focus();
+      }, 100);
+    }
     
     end_key.keys = undefined;
     end_key.rt = undefined;
