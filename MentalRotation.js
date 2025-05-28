@@ -1,4 +1,4 @@
-﻿/*********************** 
+/*********************** 
  * Mentalrotation *
  ***********************/
 
@@ -145,7 +145,7 @@ async function experimentInit() {
   instr_textbox1 = new visual.TextBox({
     win: psychoJS.window,
     name: 'instr_textbox1',
-    text: "Welcome. You will see two 'F' letters on the screen that have been rotated.\n\nYour task is to mentally rotate the 'F' on the right so that it is facing upright.\n\nFor each pair of letters, indicate if they are mirror images of each other when they two letters are in their normal upright position. (You have to mentally rotate them so they are both standing upright).\n \nPress 'm' if they are mirror images of each other.\nPress 'n' if they are facing the same direction (not mirror images).   \n\nPress 'm' to start",
+    text: "Welcome. You will see two 'F' letters on the screen that have been rotated.\n\nYour task is to mentally rotate the 'F' on the right so that it is facing upright.\n\nFor each pair of letters, indicate if they are mirror images of each other when they two letters are in their normal upright position. (You have to mentally rotate them so they are both standing upright).\n \nPress 'm' if they are mirror images of each other.\nPress 'n' if they are facing the same direction  (NOT mirror images).\n\nPress 'space' to continue.",
     placeholder: 'Type here...',
     font: 'Arial',
     pos: [0, 0], 
@@ -389,7 +389,7 @@ function Intructions_1RoutineEachFrame() {
     }
     
     if (instr_key_1.status === PsychoJS.Status.STARTED) {
-      let theseKeys = instr_key_1.getKeys({keyList: ['m'], waitRelease: false});
+      let theseKeys = instr_key_1.getKeys({keyList: ['space'], waitRelease: false});
       _instr_key_1_allKeys = _instr_key_1_allKeys.concat(theseKeys);
       if (_instr_key_1_allKeys.length > 0) {
         instr_key_1.keys = _instr_key_1_allKeys[_instr_key_1_allKeys.length - 1].name;  // just the last key pressed
@@ -446,17 +446,6 @@ function Intructions_1RoutineEnd(snapshot) {
       }
     }
     psychoJS.experiment.addData('Intructions_1.stopped', globalClock.getTime());
-    // update the trial handler
-    if (currentLoop instanceof MultiStairHandler) {
-      currentLoop.addResponse(instr_key_1.corr, level);
-    }
-    psychoJS.experiment.addData('instr_key_1.keys', instr_key_1.keys);
-    if (typeof instr_key_1.keys !== 'undefined') {  // we had a response
-        psychoJS.experiment.addData('instr_key_1.rt', instr_key_1.rt);
-        psychoJS.experiment.addData('instr_key_1.duration', instr_key_1.duration);
-        routineTimer.reset();
-        }
-    
     instr_key_1.stop();
     // the Routine "Intructions_1" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
@@ -486,10 +475,8 @@ function Intructions_2RoutineBegin(snapshot) {
     routineTimer.reset();
     Intructions_2MaxDurationReached = false;
     // update component parameters for each repeat
-    image_L_3.setOri(0);
-    image_L_3.setImage('FR.png');
-    image_R_3.setOri((- 90));
-    image_R_3.setImage('F.png');
+    image_L_3.setImage('F.png');
+    image_R_3.setImage('FR.png');
     instr_key_2.keys = undefined;
     instr_key_2.rt = undefined;
     _instr_key_2_allKeys = [];
@@ -636,11 +623,11 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
     });
     psychoJS.experiment.addLoop(trials); // add the loop to the experiment
     currentLoop = trials;  // we're now the current loop
-    
+
     // Schedule all the trials in the trialList:
     for (const thisTrial of trials) {
       snapshot = trials.getSnapshot();
-      trialsLoopScheduler.add(importConditions(snapshot));
+      trialsLoopScheduler.add(importConditions(currentLoop));
       trialsLoopScheduler.add(trialRoutineBegin(snapshot));
       trialsLoopScheduler.add(trialRoutineEachFrame());
       trialsLoopScheduler.add(trialRoutineEnd(snapshot));
@@ -649,7 +636,7 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
       trialsLoopScheduler.add(feedbackRoutineEnd(snapshot));
       trialsLoopScheduler.add(trialsLoopEndIteration(trialsLoopScheduler, snapshot));
     }
-    
+
     return Scheduler.Event.NEXT;
   }
 }
@@ -671,18 +658,12 @@ function trialsLoopEndIteration(scheduler, snapshot) {
   // ------Prepare for next entry------
   return async function () {
     if (typeof snapshot !== 'undefined') {
-      // ------Check if user ended loop early------
-      if (snapshot.finished) {
-        // Check for and save orphaned data
-        if (psychoJS.experiment.isEntryEmpty()) {
-          psychoJS.experiment.nextEntry(snapshot);
-        }
-        scheduler.stop();
-      } else {
-        psychoJS.experiment.nextEntry(snapshot);
+      // ------Check if user responded------
+      if (key_resp.keys !== undefined && key_resp.keys.length > 0) {
+        snapshot.finished = true;
       }
-    return Scheduler.Event.NEXT;
     }
+    return Scheduler.Event.NEXT;
   };
 }
 
@@ -703,14 +684,14 @@ function trialRoutineBegin(snapshot) {
     routineTimer.reset();
     trialMaxDurationReached = false;
     // update component parameters for each repeat
-    image_L.setOri(leftori);
-    image_L.setImage(left_im);
-    image_R.setOri(rightori);
-    image_R.setImage(right_im);
+    image_L.setOri(leftang);
+    image_L.setImage(leftimg);
+    image_R.setOri(rightang);
+    image_R.setImage(rightimg);
     key_resp.keys = undefined;
     key_resp.rt = undefined;
     _key_resp_allKeys = [];
-    trial_count.setText(((trials.thisN.toString() + "/") + trials.nTotal.toString()));
+    trial_count.setText((((trials.thisN + 1).toString() + " of ") + trials.nTotal.toString()));
     psychoJS.experiment.addData('trial.started', globalClock.getTime());
     trialMaxDuration = null
     // keep track of which components have finished
@@ -861,7 +842,6 @@ function trialRoutineEnd(snapshot) {
     if (typeof key_resp.keys !== 'undefined') {  // we had a response
         psychoJS.experiment.addData('key_resp.rt', key_resp.rt);
         psychoJS.experiment.addData('key_resp.duration', key_resp.duration);
-        routineTimer.reset();
         }
     
     key_resp.stop();
@@ -1009,35 +989,36 @@ function the_endRoutineBegin(snapshot) {
     routineTimer.reset();
     the_endMaxDurationReached = false;
     // update component parameters for each repeat
-    // Calculate performance metrics
-const totalTrials = trialsLoop.nTotal || 31; // Use 31 as fallback if variable not found
-const percentCorrect = ((correct_counter / totalTrials) * 100).toFixed(1);
-
-// Calculate average response time (if available)
-let avgRT = "N/A";
-try {
-  // This assumes response times are stored in an array called rt or similar
-  const allRTs = psychoJS.experiment.getData('key_resp.rt');
-  if (allRTs && allRTs.length > 0) {
-    const validRTs = allRTs.filter(rt => rt !== undefined && !isNaN(rt));
-    const sumRT = validRTs.reduce((sum, rt) => sum + rt, 0);
-    avgRT = (sumRT / validRTs.length).toFixed(2) + " seconds";
-  }
-} catch (e) {
-  console.log("Could not calculate average RT", e);
-}
-
-// Create a clear results summary
-const resultsSummary = 
-  `MENTAL ROTATION TASK RESULTS\n\n` +
-  `Total correct: ${correct_counter} out of ${totalTrials}\n` +
-  `Accuracy: ${percentCorrect}%\n` +
-  `Average response time: ${avgRT}\n\n` +
-  `-------------------------------\n` +
-  `COPY THE ABOVE RESULTS TO PASTE INTO QUALTRICS\n` +
-  `Press SPACE to save your data and close this task`;
-
-end_txt.setText(resultsSummary);
+    
+    // Calculate performance metrics safely
+    const totalTrials = trials.nTotal || 32; // Use the trials object's nTotal or fallback to 32
+    const percentCorrect = ((correct_counter / totalTrials) * 100).toFixed(1);
+    
+    // Calculate average response time (if available)
+    let avgRT = "N/A";
+    try {
+      // Get all response times from the experiment data
+      const allRTs = psychoJS.experiment._currentTrialData.map(trial => trial['key_resp.rt']).filter(rt => rt !== undefined && !isNaN(rt));
+      if (allRTs.length > 0) {
+        const sumRT = allRTs.reduce((sum, rt) => sum + rt, 0);
+        avgRT = (sumRT / allRTs.length).toFixed(2) + " seconds";
+      }
+    } catch (e) {
+      console.log("Could not calculate average RT", e);
+    }
+    
+    // Create a clear results summary
+    const resultsSummary = 
+      `MENTAL ROTATION TASK RESULTS\n\n` +
+      `Total correct: ${correct_counter} out of ${totalTrials}\n` +
+      `Accuracy: ${percentCorrect}%\n` +
+      `Average response time: ${avgRT}\n\n` +
+      `-------------------------------\n` +
+      `COPY THE ABOVE RESULTS TO PASTE INTO QUALTRICS\n` +
+      `Press SPACE to save your data and close this task`;
+    
+    end_txt.setText(resultsSummary);
+    
     end_key.keys = undefined;
     end_key.rt = undefined;
     _end_key_allKeys = [];
