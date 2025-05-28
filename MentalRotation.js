@@ -992,14 +992,25 @@ function the_endRoutineBegin(snapshot) {
     const totalTrials = trials.nTotal || 32; // Use the trials object's nTotal or fallback to 32
     const percentCorrect = ((correct_counter / totalTrials) * 100).toFixed(1);
     
-    // Calculate average response time (if available)
+    // Calculate average response time by collecting RTs from trials
     let avgRT = "N/A";
+    let responseTimeSum = 0;
+    let responseTimeCount = 0;
+    
+    // Get response times from the experiment's trial data
     try {
-      // Get all response times from the experiment data
-      const allRTs = psychoJS.experiment._currentTrialData.map(trial => trial['key_resp.rt']).filter(rt => rt !== undefined && !isNaN(rt));
-      if (allRTs.length > 0) {
-        const sumRT = allRTs.reduce((sum, rt) => sum + rt, 0);
-        avgRT = (sumRT / allRTs.length).toFixed(2) + " seconds";
+      // Access the experiment's data directly
+      if (psychoJS.experiment._trialsData && psychoJS.experiment._trialsData.length > 0) {
+        for (let trial of psychoJS.experiment._trialsData) {
+          if (trial['key_resp.rt'] !== undefined && !isNaN(trial['key_resp.rt'])) {
+            responseTimeSum += trial['key_resp.rt'];
+            responseTimeCount++;
+          }
+        }
+        
+        if (responseTimeCount > 0) {
+          avgRT = (responseTimeSum / responseTimeCount).toFixed(2) + " seconds";
+        }
       }
     } catch (e) {
       console.log("Could not calculate average RT", e);
