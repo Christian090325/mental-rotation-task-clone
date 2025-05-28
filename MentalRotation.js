@@ -301,7 +301,7 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.1], draggable: false, height: 0.04,  wrapWidth: 1.5, ori: 0,
     languageStyle: 'LTR',
     color: new util.Color('black'),  opacity: 1,
     depth: 0.0 
@@ -315,7 +315,7 @@ async function experimentInit() {
     text: "Press 'space' to save results",
     font: 'Arial',
     units: undefined, 
-    pos: [0, (- 0.2)], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, (- 0.35)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: undefined,
     depth: -2.0 
