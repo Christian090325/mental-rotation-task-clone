@@ -73,11 +73,9 @@ psychoJS.start({
   resources: [
     // resources:
     {'name': 'MentalRot.csv', 'path': 'MentalRot.csv'},
-    {'name': 'F.png', 'path': 'F.png'},
-    {'name': 'FR.png', 'path': 'FR.png'},
-    {'name': 'FR.png', 'path': 'FR.png'},
+    {'name': 'F.svg', 'path': 'F.svg'},
+    {'name': 'FR.svg', 'path': 'FR.svg'},
     {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
-    {'name': 'F.png', 'path': 'F.png'},
   ]
 });
 
@@ -684,10 +682,10 @@ function trialRoutineBegin(snapshot) {
     routineTimer.reset();
     trialMaxDurationReached = false;
     // update component parameters for each repeat
-    image_L.setOri(leftang);
-    image_L.setImage(leftimg);
-    image_R.setOri(rightang);
-    image_R.setImage(rightimg);
+    image_L.setOri(leftori || 0);
+    image_L.setImage(left_im || 'F.svg');
+    image_R.setOri(rightori || 0);
+    image_R.setImage(right_im || 'FR.svg');
     key_resp.keys = undefined;
     key_resp.rt = undefined;
     _key_resp_allKeys = [];
@@ -758,7 +756,7 @@ function trialRoutineEachFrame() {
         key_resp.rt = _key_resp_allKeys[_key_resp_allKeys.length - 1].rt;
         key_resp.duration = _key_resp_allKeys[_key_resp_allKeys.length - 1].duration;
         // was this correct?
-        if (key_resp.keys == corrAns) {
+        if (key_resp.keys == (corrAns || 'n')) {
             key_resp.corr = 1;
         } else {
             key_resp.corr = 0;
