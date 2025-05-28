@@ -73,8 +73,8 @@ psychoJS.start({
   resources: [
     // resources:
     {'name': 'MentalRot.csv', 'path': 'MentalRot.csv'},
-    {'name': 'F.svg', 'path': 'F.svg'},
-    {'name': 'FR.svg', 'path': 'FR.svg'},
+    {'name': 'F.png', 'path': 'F.png'},
+    {'name': 'FR.png', 'path': 'FR.png'},
     {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
   ]
 });
@@ -683,9 +683,9 @@ function trialRoutineBegin(snapshot) {
     trialMaxDurationReached = false;
     // update component parameters for each repeat
     image_L.setOri(leftori || 0);
-    image_L.setImage(left_im || 'F.svg');
+    image_L.setImage(left_im || 'F.png');
     image_R.setOri(rightori || 0);
-    image_R.setImage(right_im || 'FR.svg');
+    image_R.setImage(right_im || 'FR.png');
     key_resp.keys = undefined;
     key_resp.rt = undefined;
     _key_resp_allKeys = [];
