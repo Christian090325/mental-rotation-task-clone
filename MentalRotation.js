@@ -281,6 +281,11 @@ async function experimentInit() {
   // Run 'Begin Experiment' code from code
   correct_counter = 0;
   
+  // Initialize array to track response times
+  if (typeof window.responseTimeArray === 'undefined') {
+    window.responseTimeArray = [];
+  }
+  
   fbtext = new visual.TextStim({
     win: psychoJS.window,
     name: 'fbtext',
@@ -882,6 +887,11 @@ function feedbackRoutineBegin(snapshot) {
     }
     correct_counter += key_resp.corr;
     
+    // Store response time for averaging later
+    if (key_resp.rt !== undefined && !isNaN(key_resp.rt)) {
+      window.responseTimeArray.push(key_resp.rt);
+    }
+    
     fbtext.setColor(new util.Color(fbcol));
     fbtext.setText(fb);
     psychoJS.experiment.addData('feedback.started', globalClock.getTime());
@@ -992,25 +1002,12 @@ function the_endRoutineBegin(snapshot) {
     const totalTrials = trials.nTotal || 32; // Use the trials object's nTotal or fallback to 32
     const percentCorrect = ((correct_counter / totalTrials) * 100).toFixed(1);
     
-    // Calculate average response time by collecting RTs from trials
+    // Calculate average response time from collected RTs
     let avgRT = "N/A";
-    let responseTimeSum = 0;
-    let responseTimeCount = 0;
-    
-    // Get response times from the experiment's trial data
     try {
-      // Access the experiment's data directly
-      if (psychoJS.experiment._trialsData && psychoJS.experiment._trialsData.length > 0) {
-        for (let trial of psychoJS.experiment._trialsData) {
-          if (trial['key_resp.rt'] !== undefined && !isNaN(trial['key_resp.rt'])) {
-            responseTimeSum += trial['key_resp.rt'];
-            responseTimeCount++;
-          }
-        }
-        
-        if (responseTimeCount > 0) {
-          avgRT = (responseTimeSum / responseTimeCount).toFixed(2) + " seconds";
-        }
+      if (window.responseTimeArray && window.responseTimeArray.length > 0) {
+        const sumRT = window.responseTimeArray.reduce((sum, rt) => sum + rt, 0);
+        avgRT = (sumRT / window.responseTimeArray.length).toFixed(2) + " seconds";
       }
     } catch (e) {
       console.log("Could not calculate average RT", e);
